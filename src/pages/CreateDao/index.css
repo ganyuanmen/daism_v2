@@ -1,0 +1,4 @@
+.createdao_menu{display: flex; align-items: center; justify-content: center;}
+.createdao_item {text-align: center; flex:1; border-radius: 12px; }
+.createdao_item:hover{cursor: pointer;}
+.createdao_img{width: 24px; height: 24px;}

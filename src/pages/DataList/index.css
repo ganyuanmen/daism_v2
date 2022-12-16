@@ -1,0 +1,46 @@
+.nowrap{overflow: hidden; 
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.taddress{
+    padding-bottom: 10px; font-size: 11px
+}
+
+.cardimg{width: 64px; height: 64px;}
+
+.card{margin-top: 12px !important;}
+.carde{display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   overflow: hidden;
+   padding-left: 16px;text-indent:2em;
+}
+.carFoot{
+    display: flex; align-items: center;justify-content: space-between; font-size: 10px; padding-top: 12px;
+}
+/* .carTop1{
+    display: flex; padding-right: 10px; padding-left: 10px; padding-top: 10px;  align-items: center;justify-content: space-between; font-size: 12px;
+} */
+.carTop2{
+    display: flex; justify-content: center; align-items: center;flex:1; padding-left: 10px; padding-right:30px; 
+}
+.fingimg{
+    margin-right: -24px; z-index: 999
+}
+.fingimg:hover{ cursor: pointer;}
+.findinput{
+    border-radius: 20px !important;flex:1;padding-left: 30px !important; 
+}
+.morder{display: inline-block; padding-right: 6px;padding-right: 6px;}
+.morder:hover{cursor:pointer; }
+.ac{color: dodgerblue; border-bottom: 2px solid dodgerblue}
+
+.pageButton{
+    display: flex; justify-content: center;  align-items: center;
+}
+.pagetotal{
+    padding: 12px 10px;  display:  flex; justify-content: space-between;
+}
+.pageText{
+    color: blueviolet;font-weight: bold; padding-left: 4px;padding-right: 4px;
+}
